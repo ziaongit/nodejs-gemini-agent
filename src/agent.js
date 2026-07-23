@@ -14,7 +14,7 @@ const toolHandlers = { get_weather, calculate, get_exchange_rate };
 
 async function runAgent(userMessage) {
   const model = genAI.getGenerativeModel({
-    model: 'gemini-2.0-flash',
+    model: process.env.GEMINI_MODEL || 'gemini-2.0-flash',
     tools: [{ functionDeclarations: toolDefinitions }],
   });
 
