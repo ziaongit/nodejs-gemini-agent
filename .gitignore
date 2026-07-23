@@ -1,0 +1,16 @@
+# Dependencies
+node_modules/
+
+# Environment variables (keep your API key out of git)
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Runtime
+.DS_Store
+Thumbs.db
