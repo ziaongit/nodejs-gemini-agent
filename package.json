@@ -4,11 +4,13 @@
   "description": "AI agent with function calling using Google Gemini and Node.js",
   "main": "src/index.js",
   "scripts": {
-    "start": "node src/index.js"
+    "start": "node src/index.js",
+    "server": "node src/server.js"
   },
   "dependencies": {
     "@google/generative-ai": "^0.21.0",
-    "dotenv": "^16.4.5"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
   },
   "engines": {
     "node": ">=18.0.0"
