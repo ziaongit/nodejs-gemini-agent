@@ -15,7 +15,7 @@ A working AI agent built with Google Gemini 1.5 Flash and Node.js. The agent can
 1. Clone the repo and install dependencies:
 
 ```bash
-git clone https://github.com/ziaongit/nodejs-gemini-agent
+git clone https://github.com/ziaongit/nodejs-gemini-agent.git
 cd nodejs-gemini-agent
 npm install
 ```
